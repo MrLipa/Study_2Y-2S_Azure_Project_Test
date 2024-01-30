@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project", "Project\Project.csproj", "{52BC887C-4150-4036-963E-C054CBE94592}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementy rozwiązania", "Elementy rozwiązania", "{8969A725-9DE4-4C46-B1AF-C230451D6504}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		other\creater-infra.yaml = other\creater-infra.yaml
+		other\db.sql = other\db.sql
+		main.tf = main.tf
+		other\main.tf = other\main.tf
+		other\master_function.yml = other\master_function.yml
+		other\master_web_app.yml = other\master_web_app.yml
+		other\Project_Requirements_2023.pdf = other\Project_Requirements_2023.pdf
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.Tests", "Project.Tests\Project.Tests.csproj", "{4C69B804-4C8D-43F4-9A8C-8716A66419D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "terraform", "terraform", "{9068CD8B-3297-4E07-ACDE-FF54FDF00772}"
+	ProjectSection(SolutionItems) = preProject
+		terraform\app-insight.tf = terraform\app-insight.tf
+		terraform\event-grid.tf = terraform\event-grid.tf
+		terraform\function.tf = terraform\function.tf
+		terraform\main.tf = terraform\main.tf
+		terraform\README.md = terraform\README.md
+		terraform\sql-database.tf = terraform\sql-database.tf
+		terraform\sql-server.tf = terraform\sql-server.tf
+		terraform\variable.tf = terraform\variable.tf
+		terraform\version.tf = terraform\version.tf
+		terraform\web-app.tf = terraform\web-app.tf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "other", "other", "{1223AA24-2FC7-48DC-8FC4-FF973FB75BB2}"
+	ProjectSection(SolutionItems) = preProject
+		other\creater-infra.yaml = other\creater-infra.yaml
+		other\main.tf = other\main.tf
+		other\master_function.yml = other\master_function.yml
+		other\master_web_app.yml = other\master_web_app.yml
+	EndProjectSection
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Project.FunctionSendEmail", "Project.FunctionSendEmail\Project.FunctionSendEmail.pyproj", "{BAF14AD7-C9E3-43C4-A9C6-66F9079E5BA2}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Project.FunctionPrepareMeal", "Project.FunctionPrepareMeal\Project.FunctionPrepareMeal.pyproj", "{47A09AE2-2356-4050-A7F7-E255F553EB25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52BC887C-4150-4036-963E-C054CBE94592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52BC887C-4150-4036-963E-C054CBE94592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52BC887C-4150-4036-963E-C054CBE94592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52BC887C-4150-4036-963E-C054CBE94592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C69B804-4C8D-43F4-9A8C-8716A66419D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C69B804-4C8D-43F4-9A8C-8716A66419D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C69B804-4C8D-43F4-9A8C-8716A66419D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C69B804-4C8D-43F4-9A8C-8716A66419D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAF14AD7-C9E3-43C4-A9C6-66F9079E5BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF14AD7-C9E3-43C4-A9C6-66F9079E5BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A09AE2-2356-4050-A7F7-E255F553EB25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A09AE2-2356-4050-A7F7-E255F553EB25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9068CD8B-3297-4E07-ACDE-FF54FDF00772} = {8969A725-9DE4-4C46-B1AF-C230451D6504}
+		{1223AA24-2FC7-48DC-8FC4-FF973FB75BB2} = {8969A725-9DE4-4C46-B1AF-C230451D6504}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FAB4968-F774-4B24-B7D9-4D0CCDB1E739}
+	EndGlobalSection
+EndGlobal
