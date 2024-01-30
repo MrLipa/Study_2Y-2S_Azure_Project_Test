@@ -1,12 +1,6 @@
 # Getting Started
 - **Resource Visualizor:** ![rg-project-azure.png](rg-project-azure.png)
 
-
-
-
-
-
-
 terraform init 
 terraform validate
 terraform apply -auto-approve
@@ -18,6 +12,28 @@ dostosuj plik githuba action według tego z other
 event grid dodaj subskrypcje na funckje send email
 dodaj do web appa event grid key
 enable application ingisht na 4 aplikacjach 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 dashborad pinuj pinestką metryki 
 do metryuki dodaj add alert 
