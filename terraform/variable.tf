@@ -33,7 +33,6 @@ variable "sql_server_password" {
   type    = string
   default = "Admin123"
 }
-
 variable "function_name" {
   type    = string
   default = "213742069"
