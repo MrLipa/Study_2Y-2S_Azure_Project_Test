@@ -14,7 +14,7 @@ dodaj do web appa event grid key
 enable application ingisht na 4 aplikacjach 
 
 
-
+https://localhost:7080/swagger/index.html
 
 
 
