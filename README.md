@@ -5,6 +5,7 @@ terraform init
 terraform validate
 terraform apply -auto-approve
 
+
 wejdz do servera networking i zaznacz allow
 wejdz na database azure zaloguj sie Admin123 dodaj ip jeśli to potrzebne wklej sql
 wejdz do funkcji 1 i 2 oraz web appa i zró deployment na githuba master
